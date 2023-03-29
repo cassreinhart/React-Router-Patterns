@@ -1,0 +1,14 @@
+.Dog {
+    padding-bottom: 4rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.Dog img {
+    height: 500px;
+}
+
+.Dog a {
+    padding-top: 1.5rem;
+}

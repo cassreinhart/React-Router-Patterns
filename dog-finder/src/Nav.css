@@ -1,0 +1,22 @@
+.Nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(58, 102, 235);
+    height: 4rem;
+    margin: 0;
+}
+
+.Nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: .5rem 1rem ;
+    font-size: 2.5rem;
+}
+
+.Nav li a:hover {
+    background-color: rgb(140, 166, 227);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
