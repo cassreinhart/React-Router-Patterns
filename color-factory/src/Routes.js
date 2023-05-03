@@ -7,6 +7,12 @@ const Routes = () => {
         <Route exact path='/colors'>
             <ColorList />
         </Route>
+        <Route exact path='/colors/:color'>
+            <Color color={color}/>
+        </Route>
+        <Route exact path='/'>
+            <Home />
+        </Route>
     </Switch>
   )
 }
